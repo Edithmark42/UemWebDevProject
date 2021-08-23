@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rampart+One&family=Roboto+Mono:wght@100&family=Rubik:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height: 10vh;
+    width: 100vw;
+    font-family: 'Roboto Mono', monospace;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav li{
+    list-style:none;
+    padding: 0 70px;
+}
+
+.logo{
+    padding: 0 6vw;
+    position: relative;
+    right: 2vw;
+}
+
+.logo img{
+    height: 38px;
+    width: 150px;
+}
+
+nav ul{
+    position: relative;
+    left: 80px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    color: white;
+    height: 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(227, 243, 5);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+main{
+    font-family: 'Rubik', sans-serif;
+}
+
+.background{
+    margin: 15px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apply{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 15px;
+}
+
+.apply .btn:hover{
+    background-color: rgb(4, 7, 150);
+    color: rgb(252, 252, 9);
+    font-size: 15px;
+}
+
+.btn{
+    height: 60px;
+    width: 250px;
+    margin: 0 120px;
+    color: white;
+    background-color: rgb(12, 11, 11);
+    border: 3px solid white;
+    border-radius: 12px;
+    position: relative;
+    left: 15px;
+    cursor: pointer;
+}
+
+.yt{
+    height: 400px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 355px;
+}
+
+footer{
+    height: 10vh;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+}
